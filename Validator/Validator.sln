@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 14 for Windows Desktop
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessIdValidator", "BusinessIdValidator\BusinessIdValidator.csproj", "{DB934871-E605-46BA-B29F-82AD43EFA1D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "Tester\Tester.csproj", "{6A3131E7-6FC3-4870-B2AD-F8394CD2917E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DB934871-E605-46BA-B29F-82AD43EFA1D6} = {DB934871-E605-46BA-B29F-82AD43EFA1D6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB934871-E605-46BA-B29F-82AD43EFA1D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB934871-E605-46BA-B29F-82AD43EFA1D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB934871-E605-46BA-B29F-82AD43EFA1D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB934871-E605-46BA-B29F-82AD43EFA1D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3131E7-6FC3-4870-B2AD-F8394CD2917E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3131E7-6FC3-4870-B2AD-F8394CD2917E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3131E7-6FC3-4870-B2AD-F8394CD2917E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3131E7-6FC3-4870-B2AD-F8394CD2917E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
